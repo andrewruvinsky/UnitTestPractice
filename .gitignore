@@ -33,4 +33,4 @@
 
 # Coverage data
 *.gcda
-*.gcno
+*.gcno.vscode
