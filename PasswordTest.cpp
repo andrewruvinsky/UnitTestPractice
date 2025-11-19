@@ -147,3 +147,9 @@ TEST(PasswordTest, same_character_lower_upper)
 	Password my_password;
 	ASSERT_EQ(2, my_password.unique_characters("aA"));
 }
+
+TEST(PasswordTest, repeating_characters)
+{
+	Password my_password;
+	ASSERT_EQ(1, my_password.unique_characters("aaa"));
+}
